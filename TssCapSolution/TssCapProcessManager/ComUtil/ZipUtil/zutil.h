@@ -6,9 +6,9 @@
 #include <vector>
 
 #ifdef _DEBUG
-#pragma comment(lib, "zlibd.lib")
+#pragma comment(lib, "Modules/zlibd.lib")
 #else
-#pragma comment(lib, "zlib.lib")
+#pragma comment(lib, "Modules/zlib.lib")
 #endif
 
 using namespace std;
