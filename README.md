@@ -6,7 +6,7 @@ Mulimedia caption data for terrestrial broadcast
 
 ## Description
 This Project is mulimedia caption data for terrestrial broadcast.
-Input : MMT stream ( data id )
+Input : TS stream ( data id )
 Opuput : ARGB-format image data
 
 ## Example
