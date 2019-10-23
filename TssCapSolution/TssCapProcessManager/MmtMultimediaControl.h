@@ -26,6 +26,9 @@ PluginAPI long ApiSendCommand(long number, char *cmd, int size);
 //duration =0 通常は0。end-beginがある場合、表示時間[msec]を示す
 //PluginAPI long ApiCaptionUpdate(long number, void *input_pointer, int input_size, void *output_pointer, int output_size, int image_type, int *ctrl_type, long *image_interval, long *duration, long *begin, long *end); //字幕用 入力(ZIP)＋出力(画像) [C++->C#]
 //PluginAPI long ApiCaptionUpdate(long number, void *input_pointer, int input_size, void *output_pointer, int output_size, int image_type, int *ctrl_type, int *image_interval, int *duration, int *begin, int *end); //字幕用 入力(ZIP)＋出力(画像) [C++->C#]
+//duration=字幕の表示間隔（end-begin）
+//begin=HH:MM:DD.FFF->msec
+//end=HH:MM:DD.FFF->msec
 PluginAPI long ApiCaptionUpdate(long number, void *input_pointer, int input_size, void *output_pointer, int output_size, int image_type, int *ctrl_type, int *image_interval, int *duration, int *begin, int *end, int animationOpacity); //字幕用 入力(ZIP)＋出力(画像) [C++->C#]
 
 PluginAPI long ApiMmDataUpdate(long number, void *output_pointer, int output_size, int image_type); //データ放送用 出力(画像) [C++->C#]
