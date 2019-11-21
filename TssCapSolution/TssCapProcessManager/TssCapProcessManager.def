@@ -13,6 +13,7 @@ TssCapManApiStop									@12
 //PES
 TssCapInputApiPushPesData							@20
 TssCapInputApiPushTspData							@21
+TssCapInputApiPushPesDataWithPts					@22
 
 //PCR/STC
 TssCapManApiSetTimestamp							@40
