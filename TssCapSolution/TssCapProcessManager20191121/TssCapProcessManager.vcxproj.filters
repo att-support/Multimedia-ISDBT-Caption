@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MmtMux">
+      <UniqueIdentifier>{97996b36-6288-4c71-9dc4-fa43ca87a85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MmtMux\App">
+      <UniqueIdentifier>{65bc5e19-e021-4e9f-885f-ab6d7b5b7620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MmtMux\PacketStructure">
+      <UniqueIdentifier>{d6702d2c-fed5-4c30-a3ad-819205570cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MmtMux\Util">
+      <UniqueIdentifier>{27fe39b5-47a4-4e71-8ff4-49514a3e99be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zip7Lib">
+      <UniqueIdentifier>{fbf99cd1-961f-4a69-86ad-26fffdda459a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MmtMultimediaControl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TssCapProcessManagerApi.h" />
+    <ClInclude Include="TssCapProcessManagerListenerIf.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TssCapProcessManager.h" />
+    <ClInclude Include="ClockTime.h" />
+    <ClInclude Include="CInputTsFile.h" />
+    <ClInclude Include="CaptionConverter.h" />
+    <ClInclude Include="ComUtil\App\AppLogger.h" />
+    <ClInclude Include="ComUtil\PacketStructure\Caption\CCaptionData.h" />
+    <ClInclude Include="ComUtil\PacketStructure\Caption\CCaptionManagementData.h" />
+    <ClInclude Include="ComUtil\PacketStructure\Caption\CCaptionPES.h" />
+    <ClInclude Include="ComUtil\PacketStructure\Caption\CCRC_16.h" />
+    <ClInclude Include="ComUtil\PacketStructure\Caption\CDataGroup.h" />
+    <ClInclude Include="ComUtil\PacketStructure\Caption\CDataUnit.h" />
+    <ClInclude Include="ComUtil\PacketStructure\Caption\CPrivatePES.h" />
+    <ClInclude Include="ComUtil\Util\BinData.h" />
+    <ClInclude Include="ComUtil\Util\Conv.h" />
+    <ClInclude Include="ComUtil\Util\DbgPrint.h" />
+    <ClInclude Include="ComUtil\Util\File.h" />
+    <ClInclude Include="ComUtil\Util\Logger.h" />
+    <ClInclude Include="ComUtil\Util\Mutex.h" />
+    <ClInclude Include="ComUtil\Util\Path.h" />
+    <ClInclude Include="ComUtil\Util\StringUtil.h" />
+    <ClInclude Include="ComUtil\Util\SysTime.h" />
+    <ClInclude Include="ComUtil\Util\TextFile.h" />
+    <ClInclude Include="ComUtil\Util\Thread.h" />
+    <ClInclude Include="ComUtil\ZipUtil\FileInfo.h" />
+    <ClInclude Include="ComUtil\ZipUtil\zconf.h" />
+    <ClInclude Include="ComUtil\ZipUtil\zlib.h" />
+    <ClInclude Include="ComUtil\ZipUtil\zutil.h" />
+    <ClInclude Include="ComUtil\Util\SysClock.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TssCapProcessManagerApi.cpp" />
+    <ClCompile Include="TssCapProcessManagerListenerIf.cpp" />
+    <ClCompile Include="TssCapProcessManager.cpp" />
+    <ClCompile Include="ClockTime.cpp" />
+    <ClCompile Include="CInputTsFile.cpp" />
+    <ClCompile Include="ComUtil\App\AppLogger.cpp" />
+    <ClCompile Include="ComUtil\PacketStructure\Caption\CCaptionData.cpp" />
+    <ClCompile Include="ComUtil\PacketStructure\Caption\CCaptionManagementData.cpp" />
+    <ClCompile Include="ComUtil\PacketStructure\Caption\CCaptionPES.cpp" />
+    <ClCompile Include="ComUtil\PacketStructure\Caption\CCRC_16.cpp" />
+    <ClCompile Include="ComUtil\PacketStructure\Caption\CDataGroup.cpp" />
+    <ClCompile Include="ComUtil\PacketStructure\Caption\CDataUnit.cpp" />
+    <ClCompile Include="ComUtil\PacketStructure\Caption\CPrivatePES.cpp" />
+    <ClCompile Include="ComUtil\Util\BinData.cpp" />
+    <ClCompile Include="ComUtil\Util\Conv.cpp" />
+    <ClCompile Include="ComUtil\Util\DbgPrint.cpp" />
+    <ClCompile Include="ComUtil\Util\File.cpp" />
+    <ClCompile Include="ComUtil\Util\Logger.cpp" />
+    <ClCompile Include="ComUtil\Util\Mutex.cpp" />
+    <ClCompile Include="ComUtil\Util\Path.cpp" />
+    <ClCompile Include="ComUtil\Util\StringUtil.cpp" />
+    <ClCompile Include="ComUtil\Util\SysTime.cpp" />
+    <ClCompile Include="ComUtil\Util\TextFile.cpp" />
+    <ClCompile Include="ComUtil\Util\Thread.cpp" />
+    <ClCompile Include="ComUtil\ZipUtil\FileInfo.cpp" />
+    <ClCompile Include="ComUtil\ZipUtil\zutil.cpp" />
+    <ClCompile Include="ComUtil\Util\SysClock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TssCapProcessManager.def" />
+  </ItemGroup>
+</Project>

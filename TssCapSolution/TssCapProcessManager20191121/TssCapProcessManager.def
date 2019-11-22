@@ -1,0 +1,30 @@
+LIBRARY	"TssCapProcessManager"
+EXPORTS
+
+TssCapManApiGetVersion								@1
+TssCapManApiCreateInstance							@2
+TssCapManApiDeleteInstance							@3
+
+//動作開始停止
+TssCapManApiStart									@10
+//TssCapManApiPause									@11
+TssCapManApiStop									@12
+
+//PES
+TssCapInputApiPushPesData							@20
+TssCapInputApiPushTspData							@21
+TssCapInputApiPushPesDataWithPts					@22
+
+//PCR/STC
+TssCapManApiSetTimestamp							@40
+
+//通知登録
+TssCapManApiAppendListener							@60
+TssCapManApiRemoveListener							@61
+
+//設定関係
+TssCapManApiSetParameterInit						@80
+TssCapManApiSetParameterInputAdd					@81
+TssCapManApiSetParameterInputClear					@82
+TssCapManApiSetParameterOutput						@83
+TssCapManApiSetParameterInputLang					@84
